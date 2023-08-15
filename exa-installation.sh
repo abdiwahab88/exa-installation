@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if Cargo is installed
+# Check if Cargo is installed or not
 if ! command -v cargo &>/dev/null; then
     echo "Cargo is not installed. Installing Rust..."
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
